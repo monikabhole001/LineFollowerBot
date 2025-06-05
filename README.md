@@ -22,7 +22,7 @@ Line following robots are widely used in industrial and research applications fo
 - Sensor readings determine the motor speeds and directions:
   - When no line is detected, motors stop.
   - When the line is detected by specific sensors, the bot adjusts direction by speeding up or slowing down motors on either side.
-- eadsensors() function reads the digital values of the IR sensors.
+- readsensors () function reads the digital values of the IR sensors.
 - loop() contains logic to handle motor actions based on sensor input combinations.
 
 ## Working Logic
@@ -32,10 +32,7 @@ Line following robots are widely used in industrial and research applications fo
 
 ## Future Scope
 - Add PID control for smoother navigation.
-- Integrate Bluetooth or remote control.
 - Include obstacle detection sensors.
 - Expand to more complex track patterns.
 
----
-
-This project demonstrates basic line-following logic for autonomous robots using simple IR sensors and motor control.
+This project demonstrates basic line-following logic for autonomous robots using IR sensors and motor control.
